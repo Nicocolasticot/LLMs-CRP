@@ -57,5 +57,3 @@ async def on_message(message: cl.Message):
 
     # Send the response message to the user
     await response_message.send()
-
-# The chat application now maintains a history of interactions and uses it dynamically
