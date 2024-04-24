@@ -42,7 +42,7 @@ async def on_message(message: cl.Message):
     runnable = prompt | model | StrOutputParser()
 
     # Process the input message and stream the response
-    response_message = cl.Message(content="")
+    response_message = cl.Message(content="", author="ViaggerAI")
     for chunk in await cl.make_async(runnable.stream)(
         {"question": message.content},
         config=RunnableConfig(callbacks=[cl.LangchainCallbackHandler()]),
