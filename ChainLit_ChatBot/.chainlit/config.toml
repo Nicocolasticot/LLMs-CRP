@@ -84,7 +84,7 @@ hide_cot = true
     #font_family = "Inter, sans-serif"
 [UI.theme.light]
     background = "#FAFAFA"
-    paper = "#ADD8E6"
+    paper = "#C4DBE5"
 
     [UI.theme.light.primary]
         main = "#191970"
@@ -93,13 +93,13 @@ hide_cot = true
 
 # Override default MUI dark theme. (Check theme.ts)
 [UI.theme.dark]
-    background = "#6082B6"
-    paper = "#191970"
+    background = "#0A2239"
+    paper = "#176087"
 
     [UI.theme.dark.primary]
-        main = "#6082B6"
-        dark = "#6082B6"
-        light = "#6082B6"
+        main = "#1D84B5"
+        dark = "#132E32"
+        light = "#132E32"
 
 
 [meta]
