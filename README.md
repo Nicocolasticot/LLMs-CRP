@@ -1,5 +1,3 @@
-ReadMe 
-
 Hello! This is a chatbot avaiable with or without online functionalities to plan trips.
 The chatbot is Based on LlaMA, accessed through Ollama, and developed using the Langchain Framework and Chainlit as user interface framework. The chatbot relies on a variety of modules developed by us and external solutions such as Taivily and Spacy. 
 
